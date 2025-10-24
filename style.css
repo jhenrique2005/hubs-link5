@@ -1,0 +1,86 @@
+/*CSS Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Variaveis para cores */
+:root {
+    --cinzaClaro: #e6e6e6;
+    --cinzaMedio: #d9d9d9;
+    --verde: #111E18;
+
+}
+
+/* Layout */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+body {
+
+    font-family: "Castoro", serif;
+    background-color: var(--verde);
+
+}
+
+/* Cabeçalho */
+
+header img {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    border-radius: 50%;
+
+}
+
+/* Principal*/
+
+main {
+    text-align: center;
+
+}
+
+main h1 {
+    margin: 10px 0px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--cinzaClaro);
+}
+
+main p {
+    max-width: 210px;
+    margin-bottom: 30px;
+    color: var(--cinzaClaro);
+}
+
+/* Links */
+.container a {
+    text-decoration: none;
+    background-color: var(--cinzaClaro);
+    color: black;
+    width: 320px;
+    height: 60px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding-top: 18px;
+    border-radius: 10px;
+    font-size: 1.25em;
+}
+
+/* Rodapé*/
+
+footer {
+    margin-top: 20px;
+}
+
+footer img {
+    margin: 0px 5px;
+
+
+}
